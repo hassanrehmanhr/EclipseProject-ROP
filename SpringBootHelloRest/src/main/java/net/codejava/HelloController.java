@@ -30,6 +30,7 @@ public class HelloController {
 	//Royal Oman Police Report API
 	@GetMapping("/RunBatch")
 	public String RunBatch(@RequestParam(name = "Account", defaultValue = "0000000000000") String Account) throws IOException {
+		//Hi
 		//System.out.println("Enter the desired Account Number");
 		//BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
 		//String Account = input.readLine();
